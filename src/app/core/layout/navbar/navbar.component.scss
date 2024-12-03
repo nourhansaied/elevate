@@ -1,0 +1,14 @@
+.bg-nav {
+    background-color: #262751;
+    .navbar-brand {
+        img {
+            width: 80px;
+            height: 40px;
+            object-fit: cover;
+        }
+    }
+    .router-link-active {
+        color: #fff;
+    }
+}
+

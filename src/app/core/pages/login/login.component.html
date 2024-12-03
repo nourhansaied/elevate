@@ -1,0 +1,15 @@
+<div class="container">
+    <form class="w-50 mx-auto my-5" [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" formControlName="email" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-5">
+            <input type="password" class="form-control" id="floatingPassword" formControlName="password"  placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+
+
+          <button class="btn btn-outline-info btn-login d-block ms-auto"> Login</button>
+    </form>
+</div>

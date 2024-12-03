@@ -9,6 +9,17 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "auth": [
+        "./dist/auth"
+      ],
+      "my-lib": [
+        "./dist/my-lib"
+      ],
+      "products": [
+        "./dist/products"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
